@@ -28,7 +28,8 @@ Component accepts following, optional Props:
 - 'showNavigation': controls if the navigation buttons are visable (default = true)
 - 'prevStyle' & 'nextStyle': control style of the navigation buttons
 - 'activeStep': define a start step, when not desired to start at the beggining 
-- 'steps': a required Prop, it takes an array of objects representing individual steps: 
+- 'steps': a required Prop, it takes an array of objects representing individual steps
+- 'activeStep': it is used to assign a custom active step, in default first step is selected
 
 ```javascript
 const steps = [
@@ -71,4 +72,6 @@ npm start
 ```sh
 open index.html
 ```
+
+
 
